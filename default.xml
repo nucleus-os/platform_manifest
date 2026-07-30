@@ -7,7 +7,7 @@
   <default revision="refs/tags/android-17.0.0_r1"
            remote="aosp"
            sync-j="4" />
-  <superproject name="platform_superproject" remote="nucleus" revision="ac9631ab62101ae9e4635b4293246e69285ee477"/>
+  <superproject name="platform_superproject" remote="nucleus" revision="nucleus-android-17.0.0_r1"/>
   <contactinfo bugurl="go/repo-bug" />
   <!-- BEGIN open-source projects -->
   <project path="build/make" name="platform_build" groups="pdk,sysui-studio" remote="nucleus" revision="8bb905404bb2049ad9aed2f4892757bb70c6c712" >
