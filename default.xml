@@ -21,7 +21,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" />
-  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed,sysui-studio" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="0fd81b130f58ee85b64c2cd90aa53d86772c1df3" >
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed,sysui-studio" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="8be3b1d20bf4252ba942db4f4911c9297cf85d13" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
