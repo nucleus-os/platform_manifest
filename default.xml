@@ -21,10 +21,11 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" />
-  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed,sysui-studio" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="5f7e24fd8c9a58739f31349a857591a762a7598c" >
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed,sysui-studio" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="d7481090de8510c7d263ed02a868c92810923275" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     <linkfile src="README.md" dest="device/nucleus/nucleus_x86_64/mountpoint" />
+    <linkfile src="README.md" dest="out/mountpoint" />
   </project>
   <project path="art" name="platform_art" groups="pdk" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="df6ae08870687c7b99b753b141f7a4d93d00f7a6" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
