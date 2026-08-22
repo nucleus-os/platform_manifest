@@ -45,7 +45,7 @@
   <project path="device/generic/art" name="device/generic/art" groups="pdk" />
   <project path="device/generic/car" name="device/generic/car" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="b84bb42ee84a5fda1ab9af924d406d402ead1b0e" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="0ad2462b51968b94b34aa939d5d73698f4255910" />
   <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
@@ -383,7 +383,7 @@
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk" />
   <project path="external/mbedtls" name="platform/external/mbedtls" groups="pdk" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
-  <project path="external/mesa3d" name="platform_external_mesa3d" groups="pdk-cw-fs,pdk-fs" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="b753a9c2666203bd7859c0f7a6b8cc0806e5a52c" />
+  <project path="external/mesa3d" name="platform_external_mesa3d" groups="pdk-cw-fs,pdk-fs" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="bdce8c308bcd55eb13e297212861cc1a82a83c21" />
   <project path="external/mime-support" name="platform/external/mime-support" groups="pdk" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
@@ -959,7 +959,7 @@
   <project path="system/fs/fs_mgr" name="platform/system/fs/fs_mgr" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
-  <project path="system/core" name="platform_system_core" groups="pdk" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="038b230a0ad76c51a979b544fa6dcee11aa41225" />
+  <project path="system/core" name="platform_system_core" groups="pdk" clone-depth="1" upstream="refs/heads/nucleus-android-17.0.0_r1" remote="nucleus" revision="83bff642aaa488d885a88355ce53a3d0e11d64b8" />
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
