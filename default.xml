@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <remote name="nucleus" fetch="ssh://git@github.com/nucleus-os/" />
+  <remote name="nucleus" fetch="https://github.com/nucleus-os/" />
   <default revision="refs/tags/android-17.0.0_r1"
            remote="aosp"
            sync-j="4" />
